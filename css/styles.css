@@ -23,6 +23,7 @@ ol {
 a {
   text-decoration: none;
 }
+
 .gallery {
   width: 1440px;
   padding: 24px 156px;
@@ -46,7 +47,9 @@ a {
 .gallery-image:hover {
   width: 376px;
   height: 208px;
-  cursor: url("./img/icons.svg") 44 44, auto;
+  cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NCIgaGVpZ2h0PSI0NCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjNDg2ZGVlIiBkPSJNMTkuMjIxIDEwLjgwM0wxMiAxMFY0YTIgMiAwIDAgMC00IDB2MTJsLTMuMDMxLTEuMjEyYTIgMiAwIDAgMC0yLjY0IDEuMjI1bC0uMTEzLjM0YTEgMSAwIDAgMCAuMzA5IDEuMDg0bDUuMTk3IDQuMzMyYy4xNzkuMTQ5LjQwNi4yMzEuNjQuMjMxSDE5YTIgMiAwIDAgMCAyLTJ2LTcuMjFhMiAyIDAgMCAwLTEuNzc5LTEuOTg3Ii8+PC9zdmc+")
+      44 44,
+    auto;
   transform: scale(1.05);
 }
 .basicLightbox {
