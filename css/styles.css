@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+.gallery {
+  width: 1440px;
+  padding: 24px 156px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  row-gap: 20px;
+}
+.gallery-item {
+  flex-basis: calc((100% - 24px) / 3);
+  overflow: hidden;
+}
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+.gallery-image:hover {
+  width: 376px;
+  height: 208px;
+  cursor: url("/img/icons.svg") 44 44, auto;
+  transform: scale(1.05);
+}
+.basicLightbox {
+  background: rgba(46, 47, 66, 0.8);
+}
