@@ -77,7 +77,7 @@ function onGalleryClick(event) {
     console.log('LargeImage:', largeImageURL);
 
     const instance = basicLightbox.create(`
-        <img src="${largeImageURL}" alt="${clickedImg.alt}" width="800" height="600">
+        <img src="${largeImageURL}" alt="${clickedImg.alt}" width="1112" height="640">
     `);
 
     instance.show()

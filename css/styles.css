@@ -46,7 +46,7 @@ a {
 .gallery-image:hover {
   width: 376px;
   height: 208px;
-  cursor: url("/img/icons.svg") 44 44, auto;
+  cursor: url("./img/icons.svg") 44 44, auto;
   transform: scale(1.05);
 }
 .basicLightbox {
